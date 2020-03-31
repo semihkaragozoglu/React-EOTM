@@ -1,0 +1,38 @@
+.employee-list{
+    padding: 12px;
+    margin-top:10px;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    .employee-list-item{
+        padding: 12px;
+        background:white; 
+        display: flex;
+        flex: 1;
+        flex-basis: 300px;
+        margin: 10px;
+        width:25%;
+        text-align: left;
+        .wrapper{
+            width:100%;
+            img{
+                display: table;
+                margin: 0 auto;
+                max-width: 100%;
+                height:auto; 
+            }
+            p{
+                margin: 0px;
+            }
+            .description{
+                margin-bottom:10px;
+            }
+            .actions{
+                display:flex;
+                flex-wrap:nowrap;
+                justify-content: space-between;
+            }
+        }
+      
+    }
+}

@@ -1,0 +1,57 @@
+.employee-list {
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.employee-list .employee-list-item {
+  padding: 12px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
+  margin: 10px;
+  width: 25%;
+  text-align: left;
+}
+
+.employee-list .employee-list-item .wrapper {
+  width: 100%;
+}
+
+.employee-list .employee-list-item .wrapper img {
+  display: table;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.employee-list .employee-list-item .wrapper p {
+  margin: 0px;
+}
+
+.employee-list .employee-list-item .wrapper .description {
+  margin-bottom: 10px;
+}
+
+.employee-list .employee-list-item .wrapper .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=Employee.module.css.map */
